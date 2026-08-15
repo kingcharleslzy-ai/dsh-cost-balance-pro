@@ -1,0 +1,28 @@
+{
+  "name": "dsh-cost-balance-pro",
+  "version": "0.1.0",
+  "description": "DSH plugin: visible cost/balance stats pill below the composer, with settings page and one-click reset. Fixed fork-level issues of dsh-cost-balance (slot id collision, missing ctx, invisible 5px bar).",
+  "type": "module",
+  "exports": "./lib/index.js",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cost",
+    "balance"
+  ]
+}

@@ -1,0 +1,5 @@
+# dsh-cost-balance-pro bundle patch: one insert over the empty profile root.
+# 所有字段都有默认值；样式请在 DSH 设置 → 插件 → 「余额统计条」里调整。
+- insert:
+    - id: cost-balance-pro
+      name: dsh-cost-balance-pro
