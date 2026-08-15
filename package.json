@@ -1,6 +1,6 @@
 {
   "name": "dsh-cost-balance-pro",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "DSH plugin: visible cost/balance stats pill below the composer, with settings page and one-click reset. Fixed fork-level issues of dsh-cost-balance (slot id collision, missing ctx, invisible 5px bar).",
   "repository": {
     "type": "git",
