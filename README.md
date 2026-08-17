@@ -15,6 +15,9 @@ DSH 插件：输入框下方**可见文字**的会话花费/余额统计条，�
 | `showBalance` | boolean | `true` | 折叠态显示余额 |
 | `showCost` | boolean | `true` | 折叠态显示本次花费 |
 | `showHitRate` | boolean | `true` | 展开面板显示缓存命中率 |
+| `costCurrency` | enum | `cny` | 花费货币：`cny` 人民币 / `usd` 美元 |
+| `balanceCurrency` | enum | `cny` | 余额货币：`cny` 人民币 / `usd` 美元 |
+| `usdCnyRate` | number | `6.82` | USD→CNY 汇率（余额/花费换算用，官方峰谷价隐含值） |
 | `fontSize` | number | `12` | 折叠态字号，限制 10–16 |
 | `colorMode` | enum | `auto` | `auto` 跟随主题 / `mono` 灰色 / `custom` 自定义 |
 | `customColor` | string | `#8b5cf6` | `colorMode=custom` 时的文字颜色（#RRGGBB） |
